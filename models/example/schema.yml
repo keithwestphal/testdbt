@@ -4,11 +4,13 @@ version: 2
 sources:
   - name: sourceinfos
     description: "a starter source table"
-    columns:
-      - name: id
-        data_tests:
-          - unique
-          - not_null
+    tables:
+      - name: testtable
+        columns:
+          - name: id
+            data_tests:
+              - unique
+              - not_null
 
 
 models:
