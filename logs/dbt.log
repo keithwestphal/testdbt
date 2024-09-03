@@ -1,0 +1,66 @@
+[0m15:03:17.881546 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102bdbf10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10466ed30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10466e910>]}
+
+
+============================== 15:03:17.884028 | 8c9dd415-5333-4817-9acd-3ecc46a9b8d7 ==============================
+[0m15:03:17.884028 [info ] [MainThread]: Running with dbt=1.8.6
+[0m15:03:17.884307 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/kwest/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/Users/kwest/PycharmProjects/testdbt/testdbt/logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt compile', 'send_anonymous_usage_stats': 'True'}
+[0m15:03:17.885802 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'testdbt'
+[0m15:03:17.886604 [debug] [MainThread]: Resource report: {"command_name": "compile", "command_wall_clock_time": 0.035488166, "process_user_time": 0.548963, "process_kernel_time": 0.062022, "process_mem_max_rss": "87965696", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m15:03:17.886851 [debug] [MainThread]: Command `dbt compile` failed at 15:03:17.886808 after 0.04 seconds
+[0m15:03:17.887013 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102bdbf10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10433f3a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1044aa7c0>]}
+[0m15:03:17.887172 [debug] [MainThread]: Flushing usage events
+[0m15:05:36.579886 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1062efee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x120bafd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x120baf640>]}
+
+
+============================== 15:05:36.582643 | 44687dc0-7d9c-450e-ba87-60c37cee6734 ==============================
+[0m15:05:36.582643 [info ] [MainThread]: Running with dbt=1.8.6
+[0m15:05:36.582928 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/Users/kwest/PycharmProjects/testdbt/testdbt/logs', 'version_check': 'True', 'profiles_dir': '/Users/kwest/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt list', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:05:36.584428 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'testdbt'
+[0m15:05:36.585443 [debug] [MainThread]: Resource report: {"command_name": "list", "command_wall_clock_time": 0.03667775, "process_user_time": 0.537774, "process_kernel_time": 0.064563, "process_mem_max_rss": "90226688", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m15:05:36.585681 [debug] [MainThread]: Command `dbt list` failed at 15:05:36.585639 after 0.04 seconds
+[0m15:05:36.585845 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1062efee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x120bf9100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x120bf9130>]}
+[0m15:05:36.585999 [debug] [MainThread]: Flushing usage events
+[0m15:07:47.767864 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1023d3f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103ff1be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103ff1cd0>]}
+
+
+============================== 15:07:47.771045 | 37c0e1d6-4f84-4d2f-ad66-ba4aa406d73f ==============================
+[0m15:07:47.771045 [info ] [MainThread]: Running with dbt=1.8.6
+[0m15:07:47.771507 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/kwest/PycharmProjects/testdbt/testdbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/Users/kwest/PycharmProjects/testdbt/testdbt/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt compile', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:07:47.772234 [error] [MainThread]: Encountered an error:
+Runtime Error
+  
+  dbt encountered an error while trying to read your profiles.yml file.
+  
+  The profiles.yml file at /Users/kwest/PycharmProjects/testdbt/testdbt/profiles.yml is empty
+  
+[0m15:07:47.773441 [debug] [MainThread]: Resource report: {"command_name": "compile", "command_wall_clock_time": 0.020693084, "process_user_time": 0.516852, "process_kernel_time": 0.102712, "process_mem_max_rss": "87818240", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m15:07:47.773733 [debug] [MainThread]: Command `dbt compile` failed at 15:07:47.773685 after 0.02 seconds
+[0m15:07:47.773902 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1023d3f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1008d7130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104105a90>]}
+[0m15:07:47.774082 [debug] [MainThread]: Flushing usage events
+[0m15:08:02.130667 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106763e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1081f3100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1081f3a00>]}
+
+
+============================== 15:08:02.133294 | 4f8b1c0c-4e87-43fb-b2d3-d26721de0f0e ==============================
+[0m15:08:02.133294 [info ] [MainThread]: Running with dbt=1.8.6
+[0m15:08:02.133576 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/kwest/.dbt', 'log_path': '/Users/kwest/PycharmProjects/testdbt/testdbt/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt compile', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:08:02.134148 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt cannot run because no profile was specified for this dbt project.
+  To specify a profile for this project, add a line like the this to
+  your dbt_project.yml file:
+  
+  profile: [profile name]
+  
+  Here, [profile name] should be replaced with a profile name
+  defined in your profiles.yml file. You can find profiles.yml here:
+  
+  /Users/kwest/.dbt/profiles.yml
+  
+[0m15:08:02.134908 [debug] [MainThread]: Resource report: {"command_name": "compile", "command_wall_clock_time": 0.034516584, "process_user_time": 0.539928, "process_kernel_time": 0.066036, "process_mem_max_rss": "88178688", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m15:08:02.135170 [debug] [MainThread]: Command `dbt compile` failed at 15:08:02.135127 after 0.03 seconds
+[0m15:08:02.135337 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106763e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1081eae80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1081ea1f0>]}
+[0m15:08:02.135500 [debug] [MainThread]: Flushing usage events
